@@ -12,12 +12,17 @@ public class ThirdPerson : MonoBehaviour
     [SerializeField] private float smoothing;
 
     private float velocidadRotacion;
+    private Animator anim;
     void Start()
     {
         //Bloquear y ocultar el cursor
         Cursor.lockState = CursorLockMode.Locked;
 
         GetComponent<CharacterController>();
+
+        anim = GetComponent<Animator>();
+        cam = Camera.main;
+
     }
 
 
