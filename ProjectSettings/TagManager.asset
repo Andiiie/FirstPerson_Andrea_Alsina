@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - main_camera
+  - suelo
   layers:
   - Default
   - TransparentFX
