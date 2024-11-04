@@ -986,6 +986,12 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!4 &539541263 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2465530843296862288, guid: 7fddfa3c3706d0a458e909bd87705a78,
+    type: 3}
+  m_PrefabInstance: {fileID: 5226663707455683220}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1756,6 +1762,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 405830480}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2006899737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2006899738}
+  m_Layer: 0
+  m_Name: AtackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2006899738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006899737}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.49497315, y: 0.4959818, z: -0.5051046, w: -0.5038582}
+  m_LocalPosition: {x: 0, y: 0.02, z: -0.008}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 539541263}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9171101575767238
 GameObject:
@@ -3414,14 +3451,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Girlscout T Masuyama
       objectReference: {fileID: 0}
-    - target: {fileID: 4887834326384468352, guid: 7fddfa3c3706d0a458e909bd87705a78,
-        type: 3}
-      propertyPath: m_AngularSpeed
-      value: 350
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2465530843296862288, guid: 7fddfa3c3706d0a458e909bd87705a78,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2006899738}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7fddfa3c3706d0a458e909bd87705a78, type: 3}
 --- !u!4 &5237924676234919663
