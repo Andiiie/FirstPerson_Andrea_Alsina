@@ -8,10 +8,11 @@ using UnityEngine.Rendering;
 public class Enemy : MonoBehaviour
 {
     float vidas;
-    private NavMeshAgent agent;
-    private Player player;
-    private Animator anim;
-    private bool ventanaAtck;
+    NavMeshAgent agent;
+    Player player;
+    Animator anim;
+    bool ventanaAtck;
+    Rigidbody[] huesos;
 
     [SerializeField] private Transform attackPoint;
     [SerializeField] private float radioAtaque;
@@ -23,8 +24,11 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-
+        anim = GetComponent<Animator>();
+        huesos = GetComponentsInChildren<Rigidbody>();
         player = GameObject.FindObjectOfType<Player>();
+
+        CambiarEstadoHuesos(true);
     }
 
     void Update()
@@ -65,6 +69,25 @@ public class Enemy : MonoBehaviour
 
         }
          
+    }
+
+    void Muere()
+    {
+        //enabled sirve para desactivar o activar componentes
+        //set active true/false para activar o desactivar todo el objeto
+
+        agent.enabled = false;
+        anim.enabled = false;
+        
+        CambiarEstadoHuesos(false);
+    }
+
+    private void CambiarEstadoHuesos(bool estado)
+    {
+        for (int i = 0; i < huesos.Length; i++)
+        {
+            huesos[i].isKinematic = estado;
+        }
     }
 
     #region Eventos de animación 

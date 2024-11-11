@@ -6,6 +6,7 @@ TagManager:
   tags:
   - main_camera
   - suelo
+  - CajaMunicion
   layers:
   - Default
   - TransparentFX
