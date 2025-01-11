@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class ArmaAutomatica : MonoBehaviour
 {
-    [SerializeField] private ParticleSystem system;
-    //[SerializeField] private GameObject target;
+    [SerializeField] ParticleSystem system;
+    [SerializeField] ArmaSO misDatos; 
+   
     Camera cam;
+
+    [SerializeField] float timer = 0;
     void Start()
     {
         cam = Camera .main;
@@ -15,10 +18,22 @@ public class ArmaAutomatica : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        timer += Time.deltaTime;
+
+        if (Input.GetMouseButton(0) &&timer>misDatos.cadenciaAtaque)
         {
-            system.Play(); 
-            //if (Physics.Raycast(Camera.transform.position)
+            system.Play();
+            Debug.Log("piu!piu!");
+            timer = 0f;
+
+            if(Physics.Raycast(cam.transform.position, cam.transform.forward, out RaycastHit hitInfo, misDatos.distanciaAtaque))
+            {
+                if (hitInfo.transform.CompareTag("ParteEnemigo"))
+                {
+                    Debug.Log(hitInfo.transform.name);
+                    hitInfo.transform.GetComponent<ParteEnemigo>().RecibirDanho(misDatos.danhoAtaque);
+                }
+            }
         }
     }
 }

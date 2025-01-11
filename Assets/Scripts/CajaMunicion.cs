@@ -7,12 +7,11 @@ public class CajaMunicion : MonoBehaviour
     [SerializeField] Animator anim;
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
     }
 
-
-    void Update()
+    public void Abrir()
     {
-        
+        anim.SetTrigger("abrir");
     }
 }

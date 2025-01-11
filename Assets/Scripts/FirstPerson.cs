@@ -4,39 +4,105 @@ using UnityEngine;
 
 public class FirstPerson : MonoBehaviour
 {
-    [SerializeField] private float velocidadMovimiento;
+   
+    [Header("Detectar el suelo")]
+    [SerializeField] Transform Patas;
+    [SerializeField] float radioDeteccion;
+    [SerializeField] LayerMask queEsSuelo;
 
-    CharacterController controller;
+    [Header("Controladores,camara,animacion y movimiento")]
+    [SerializeField] float escalaGravedad;
+    [SerializeField] float velocidadMovimiento;
+    [SerializeField] float alturaSalto;
+
+    CharacterController Controller;
+    float velocidadRotacion;
+    Camera cam;
+    Animator animPlayer;
+    [SerializeField] int vidas;
+
+    // para modificar la velocidad en caida libre y en los saltos
+    private Vector3 MovimientoVertical;
+
     void Start()
     {
-       //Bloquear y ocultar el cursor
-       Cursor.lockState = CursorLockMode.Locked;
-        
-        GetComponent<CharacterController>();
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        Controller = GetComponent<CharacterController>();
+        cam = Camera.main;
+        animPlayer = GetComponent<Animator>();
     }
 
-   
     void Update()
     {
-        float h = Input.GetAxisRaw("Horizontal"); // h = 0 , h = -1, h = 1
-        float v = Input.GetAxisRaw("Vertical"); 
-
-        // Vector3 movimiento = new Vector3(h, 0, v).normalized;
-
+        float h = Input.GetAxisRaw("Horizontal"); //h=0, h=-1,h=1
+        float v = Input.GetAxisRaw("Vertical");
         Vector2 input = new Vector2(h, v).normalized;
 
-        //Si existe input...
-        if(input.magnitude > 0)
+        transform.eulerAngles = new Vector3(0, cam.transform.eulerAngles.y, 0);
+
+        if (input.sqrMagnitude > 0)
         {
-            //Se calcula el angulo al que tengo que rotarme en funcion de los imputs y orientacion de la camara
-            float anguloRotacion = Mathf.Atan2(input.x, input.y) * Mathf.Rad2Deg + Camera.main.transform.eulerAngles.y;
-            transform.eulerAngles = new Vector3(0, anguloRotacion, 0);
+            float anguloRotacion = Mathf.Atan2(input.x, input.y) * Mathf.Rad2Deg + cam.transform.eulerAngles.y;
 
             Vector3 movimiento = Quaternion.Euler(0, anguloRotacion, 0) * Vector3.forward;
-
-            //Cursor.visible = false;
+            Controller.Move(movimiento * velocidadMovimiento * Time.deltaTime);
+            animPlayer.SetBool("walking", true);
+        }
+        else
+        {
+            animPlayer.SetBool("walking", false);
         }
 
-        // controller.Move(movimiento * velocidadMovimiento * Time.deltaTime);
+        AplicarGravedad();
+        DeteccionSuelo();
+    }
+    void AplicarGravedad()
+    {
+        // mi movimiento vertical en la y aumenta a cierta escala por segundo
+        MovimientoVertical.y += escalaGravedad * Time.deltaTime;
+        Controller.Move(MovimientoVertical * Time.deltaTime);
+    }
+    void DeteccionSuelo()
+    {
+
+        Collider[] collsDetectados = Physics.OverlapSphere(Patas.position, radioDeteccion, queEsSuelo);
+        // si existe un colider bajo mis pies
+        if (collsDetectados.Length > 0)
+        {
+            MovimientoVertical.y = 0;
+            Saltar();
+        }
+
+    }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.gameObject.CompareTag("ParteEnemigo"))
+        {
+            Rigidbody rbEnemy = hit.gameObject.GetComponent<Rigidbody>();
+            Vector3 direccionFuerza = hit.transform.position - transform.position;
+            rbEnemy.AddForce(direccionFuerza.normalized * 50, ForceMode.Impulse);
+        }
+    }
+
+    public void RecibirDanho(int danhoRecibido)
+    {
+        vidas -= danhoRecibido;
+    }
+
+    // sirve para dibujar figuras en la escena
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawSphere(Patas.position, radioDeteccion);
+    }
+
+    private void Saltar()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            MovimientoVertical.y = Mathf.Sqrt(-2 * escalaGravedad * alturaSalto);
+        }
     }
 }

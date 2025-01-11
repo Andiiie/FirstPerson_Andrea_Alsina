@@ -1,37 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using UnityEditor.PackageManager;
 using UnityEngine;
 
 public class SistemaInteracciones : MonoBehaviour
 {
     Camera cam;
-    [SerializeField] private float distanciaInteraccion;
-    Transform interactuableActual;
+    [SerializeField] float DistacioaInteraccion;
+    Transform InteractuableActual;
+
     void Start()
     {
         cam = Camera.main;
+
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Physics.Raycast(cam.transform.position, cam.transform.forward, out RaycastHit hit, distanciaInteraccion))
+        if (Physics.Raycast(cam.transform.position, cam.transform.forward, out RaycastHit ObjectHitInfo, DistacioaInteraccion))
         {
-            if (hit.transform.CompareTag("CajaMunicion"))
+            if (ObjectHitInfo.transform.TryGetComponent(out CajaMunicion scripCaja))
             {
-                Debug.Log("La caja, la caja!");
+                Debug.Log("La caja La caja");
 
-                hit.transform.GetComponent<Outline>().enabled = true;
-                interactuableActual = hit.transform;
-                interactuableActual.GetComponent<Outline>().enabled = false;
-            }         
-        }
-        else if (interactuableActual)
-        {
-            interactuableActual.GetComponent<Outline>().enabled = false;
-            interactuableActual = null;
-        }
+                InteractuableActual = ObjectHitInfo.transform;
+                InteractuableActual.GetComponent<Outline>().enabled = true;
 
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    scripCaja.Abrir();
+                }
+            }
+            else if (InteractuableActual)
+            {
+                InteractuableActual.GetComponent<Outline>().enabled = false;
+                InteractuableActual = null;
+            }
+        }
     }
 }

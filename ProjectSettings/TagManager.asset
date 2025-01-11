@@ -7,15 +7,16 @@ TagManager:
   - main_camera
   - suelo
   - CajaMunicion
+  - ParteEnemigo
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - piso
   - Water
   - UI
-  - 
-  - 
+  - damage
+  - Enemigo
   - 
   - 
   - 
