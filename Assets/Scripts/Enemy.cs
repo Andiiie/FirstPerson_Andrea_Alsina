@@ -105,18 +105,18 @@ public class Enemy : MonoBehaviour
         transform.rotation = Quaternion.LookRotation(direccionAPlayer);
     }
 
-    private void FinAtaque()
+    public void FinAtaque()
     {
         //cuando termino animacion me muevo
         anim.SetBool("attacking", false);
         agent.isStopped = false;
         danhoRealizado = false;
     }
-    private void AbrirVentanaAtaque()
+    public void AbrirVentanaAtaque()
     {
         ventanaAbierta = true;
     }
-    private void CerrarVentanaAtaque()
+    public void CerrarVentanaAtaque()
     {
         ventanaAbierta = false;
     }
