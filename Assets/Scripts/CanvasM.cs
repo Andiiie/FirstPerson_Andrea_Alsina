@@ -9,6 +9,7 @@ public class CanvasM : MonoBehaviour
     public void Play()
     {
         SceneManager.LoadScene(2);
+        Debug.Log("ju");
     }
     public void Exit()
     {
