@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1980983049784315666}
   m_Layer: 7
   m_Name: mixamorig:LeftHandPinky4
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 3995373778866017281}
   m_Layer: 7
   m_Name: mixamorig:RightLeg
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -186,10 +186,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2465530843296862288}
-  - component: {fileID: 2381186675424562591}
   m_Layer: 7
   m_Name: mixamorig:RightHand
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -215,20 +214,6 @@ Transform:
   - {fileID: 8984332487297456473}
   m_Father: {fileID: 7057079943419857330}
   m_LocalEulerAnglesHint: {x: 1.2972386, y: 25.039335, z: 9.850151}
---- !u!114 &2381186675424562591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 447404289674030348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &992611724978747892
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,10 +223,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6078860139916072173}
-  - component: {fileID: 8485445051583343158}
   m_Layer: 7
   m_Name: mixamorig:LeftFoot
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -262,20 +246,6 @@ Transform:
   - {fileID: 2530160305491368470}
   m_Father: {fileID: 8398788280492163568}
   m_LocalEulerAnglesHint: {x: 50.120483, y: 31.328033, z: 27.720404}
---- !u!114 &8485445051583343158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 992611724978747892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &1031523465606577844
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,10 +354,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8594902244681297648}
-  - component: {fileID: 3175972688089723785}
   m_Layer: 7
   m_Name: mixamorig:RightHandMiddle1
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -408,20 +377,6 @@ Transform:
   - {fileID: 8610175019711808702}
   m_Father: {fileID: 2465530843296862288}
   m_LocalEulerAnglesHint: {x: -13.218628, y: 1.7291733, z: -2.7847078}
---- !u!114 &3175972688089723785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1166016100639712964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &1456040686098946126
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,7 +388,7 @@ GameObject:
   - component: {fileID: 9048676645773927369}
   m_Layer: 7
   m_Name: mixamorig:LeftHandPinky2
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -463,10 +418,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2722828155866138529}
-  - component: {fileID: 860247718782563925}
   m_Layer: 7
   m_Name: mixamorig:RightHandMiddle4
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -486,20 +440,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1926633046268807633}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &860247718782563925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1519514541979687125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &1542503602693670082
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,10 +449,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1964120286298857637}
-  - component: {fileID: 3075517677251873208}
   m_Layer: 7
   m_Name: mixamorig:RightHandRing1
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -533,20 +472,6 @@ Transform:
   - {fileID: 1619843845676561223}
   m_Father: {fileID: 2465530843296862288}
   m_LocalEulerAnglesHint: {x: 16.923704, y: -0.93415445, z: -6.4482994}
---- !u!114 &3075517677251873208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1542503602693670082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &1555215702438586767
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,7 +483,7 @@ GameObject:
   - component: {fileID: 5164771791801765972}
   m_Layer: 7
   m_Name: mixamorig:LeftHandRing2
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -590,7 +515,7 @@ GameObject:
   - component: {fileID: 6892259433648733542}
   m_Layer: 7
   m_Name: mixamorig:LeftHandPinky3
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -620,10 +545,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8823110349777032136}
-  - component: {fileID: 5313429723960355642}
   m_Layer: 7
   m_Name: mixamorig:RightHandThumb4
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -643,20 +567,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3207809651998988268}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5313429723960355642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620388596787014699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &1735142256477600430
 GameObject:
   m_ObjectHideFlags: 0
@@ -668,7 +578,7 @@ GameObject:
   - component: {fileID: 5955851741178991455}
   m_Layer: 7
   m_Name: mixamorig:LeftHandIndex1
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -698,10 +608,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3207809651998988268}
-  - component: {fileID: 3674439178825421363}
   m_Layer: 7
   m_Name: mixamorig:RightHandThumb3
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -722,20 +631,6 @@ Transform:
   - {fileID: 8823110349777032136}
   m_Father: {fileID: 8416473072762106316}
   m_LocalEulerAnglesHint: {x: 2.5747318, y: -1.0351597, z: 25.864918}
---- !u!114 &3674439178825421363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1800897064563522049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &1893054470542101457
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,10 +640,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1846949116497775447}
-  - component: {fileID: 4024363352494158831}
   m_Layer: 7
   m_Name: mixamorig:RightHandRing3
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -769,20 +663,6 @@ Transform:
   - {fileID: 8024232577786604364}
   m_Father: {fileID: 1619843845676561223}
   m_LocalEulerAnglesHint: {x: 4.5459094, y: -0.5804992, z: -0.7467063}
---- !u!114 &4024363352494158831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1893054470542101457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &1906735013739187152
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,10 +672,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1926633046268807633}
-  - component: {fileID: 5920142636464374251}
   m_Layer: 7
   m_Name: mixamorig:RightHandMiddle3
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -816,20 +695,6 @@ Transform:
   - {fileID: 2722828155866138529}
   m_Father: {fileID: 8610175019711808702}
   m_LocalEulerAnglesHint: {x: 40.51208, y: -3.105969, z: -6.620199}
---- !u!114 &5920142636464374251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1906735013739187152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &1992631312001964053
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,10 +704,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3751831332787427782}
-  - component: {fileID: 4340056115893636769}
   m_Layer: 7
   m_Name: mixamorig:LeftToe_End
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -862,20 +726,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2530160305491368470}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4340056115893636769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1992631312001964053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &2025637367888819510
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,10 +735,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3815434164416470006}
-  - component: {fileID: 4528258927097593570}
   m_Layer: 7
   m_Name: mixamorig:RightHandIndex1
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -909,20 +758,6 @@ Transform:
   - {fileID: 74215721253597299}
   m_Father: {fileID: 2465530843296862288}
   m_LocalEulerAnglesHint: {x: -25.538692, y: 4.5560937, z: -8.439965}
---- !u!114 &4528258927097593570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025637367888819510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &2170686067971523187
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,7 +769,7 @@ GameObject:
   - component: {fileID: 875201660192960641}
   m_Layer: 7
   m_Name: mixamorig:LeftHandMiddle4
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -965,7 +800,7 @@ GameObject:
   - component: {fileID: 3828095588169750951}
   m_Layer: 7
   m_Name: mixamorig:LeftHandRing3
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -995,10 +830,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8610175019711808702}
-  - component: {fileID: 4018854366455788896}
   m_Layer: 7
   m_Name: mixamorig:RightHandMiddle2
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1019,20 +853,6 @@ Transform:
   - {fileID: 1926633046268807633}
   m_Father: {fileID: 8594902244681297648}
   m_LocalEulerAnglesHint: {x: 55.14063, y: -7.7592626, z: -11.258912}
---- !u!114 &4018854366455788896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2381997485467152116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &2562680778519741994
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,10 +862,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5703924043071534666}
-  - component: {fileID: 1381896096273772025}
   m_Layer: 7
   m_Name: mixamorig:RightShoulder
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1066,20 +885,6 @@ Transform:
   - {fileID: 7337134564018414357}
   m_Father: {fileID: 954740092635763414}
   m_LocalEulerAnglesHint: {x: 63.947395, y: -97.57935, z: 175.46205}
---- !u!114 &1381896096273772025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2562680778519741994}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &2791862180509501145
 GameObject:
   m_ObjectHideFlags: 0
@@ -1089,10 +894,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8024232577786604364}
-  - component: {fileID: 4019313895895567180}
   m_Layer: 7
   m_Name: mixamorig:RightHandRing4
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1112,20 +916,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1846949116497775447}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4019313895895567180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2791862180509501145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &2987715929930901226
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,7 +927,7 @@ GameObject:
   - component: {fileID: 3567238134876272936}
   m_Layer: 7
   m_Name: mixamorig:LeftHand
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1171,10 +961,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 74215721253597299}
-  - component: {fileID: 6644560562361284940}
   m_Layer: 7
   m_Name: mixamorig:RightHandIndex2
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1195,20 +984,6 @@ Transform:
   - {fileID: 5781367735141301070}
   m_Father: {fileID: 3815434164416470006}
   m_LocalEulerAnglesHint: {x: 48.85468, y: 0.8048312, z: -5.013624}
---- !u!114 &6644560562361284940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2997704778985771037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &3301230484302341582
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,10 +993,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1619843845676561223}
-  - component: {fileID: 1527104329357888968}
   m_Layer: 7
   m_Name: mixamorig:RightHandRing2
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1243,20 +1017,6 @@ Transform:
   - {fileID: 1846949116497775447}
   m_Father: {fileID: 1964120286298857637}
   m_LocalEulerAnglesHint: {x: 5.383535, y: -1.0176327, z: -0.95932347}
---- !u!114 &1527104329357888968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3301230484302341582}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &3475174242032546341
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,10 +1026,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2530160305491368470}
-  - component: {fileID: 2733640595448085216}
   m_Layer: 7
   m_Name: mixamorig:LeftToeBase
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1290,20 +1049,6 @@ Transform:
   - {fileID: 3751831332787427782}
   m_Father: {fileID: 6078860139916072173}
   m_LocalEulerAnglesHint: {x: 42.20124, y: 6.770572, z: 0.12203817}
---- !u!114 &2733640595448085216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3475174242032546341}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &3519112382097845038
 GameObject:
   m_ObjectHideFlags: 0
@@ -1313,10 +1058,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7878873519516535804}
-  - component: {fileID: 500810369814552716}
   m_Layer: 7
   m_Name: mixamorig:RightHandPinky1
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1337,20 +1081,6 @@ Transform:
   - {fileID: 8131636197174417861}
   m_Father: {fileID: 2465530843296862288}
   m_LocalEulerAnglesHint: {x: 28.09805, y: -3.2258127, z: -8.602747}
---- !u!114 &500810369814552716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3519112382097845038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &3538763276227353157
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,7 +1092,7 @@ GameObject:
   - component: {fileID: 8866132450503174827}
   m_Layer: 7
   m_Name: mixamorig:LeftHandMiddle1
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1490,10 +1220,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 974058195707925852}
-  - component: {fileID: 2337935373776676781}
   m_Layer: 7
   m_Name: mixamorig:RightFoot
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1514,20 +1243,6 @@ Transform:
   - {fileID: 49474589385990620}
   m_Father: {fileID: 8342386274288521898}
   m_LocalEulerAnglesHint: {x: 54.22626, y: -32.307655, z: -29.019474}
---- !u!114 &2337935373776676781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3701655210769340401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &3702380263620508360
 GameObject:
   m_ObjectHideFlags: 0
@@ -1537,10 +1252,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 954740092635763414}
-  - component: {fileID: 4408996098119609297}
   m_Layer: 7
   m_Name: mixamorig:Spine2
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1563,20 +1277,6 @@ Transform:
   - {fileID: 5703924043071534666}
   m_Father: {fileID: 2445192637168932959}
   m_LocalEulerAnglesHint: {x: 7.479611, y: 1.0978509, z: -1.3411016}
---- !u!114 &4408996098119609297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3702380263620508360}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &3855098221740608509
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,7 +1292,7 @@ GameObject:
   - component: {fileID: 3356181652458119270}
   m_Layer: 7
   m_Name: mixamorig:RightUpLeg
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1738,7 +1438,7 @@ GameObject:
   - component: {fileID: 9073207885827028307}
   m_Layer: 7
   m_Name: mixamorig:LeftLeg
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1878,10 +1578,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2105758467064884427}
-  - component: {fileID: 1245623102237344401}
   m_Layer: 7
   m_Name: mixamorig:RightHandThumb1
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1902,20 +1601,6 @@ Transform:
   - {fileID: 8416473072762106316}
   m_Father: {fileID: 2465530843296862288}
   m_LocalEulerAnglesHint: {x: -1.841452, y: 0.15058531, z: 51.397526}
---- !u!114 &1245623102237344401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4144993485511707514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &4257992610373450730
 GameObject:
   m_ObjectHideFlags: 0
@@ -1927,7 +1612,7 @@ GameObject:
   - component: {fileID: 459225414401168194}
   m_Layer: 7
   m_Name: mixamorig:LeftHandThumb1
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1959,7 +1644,7 @@ GameObject:
   - component: {fileID: 1180847050653481890}
   m_Layer: 7
   m_Name: mixamorig:LeftHandThumb3
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1991,7 +1676,7 @@ GameObject:
   - component: {fileID: 5796565853375339865}
   m_Layer: 7
   m_Name: mixamorig:LeftHandPinky1
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2021,10 +1706,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5781367735141301070}
-  - component: {fileID: 762436910252704842}
   m_Layer: 7
   m_Name: mixamorig:RightHandIndex3
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2045,20 +1729,6 @@ Transform:
   - {fileID: 4467129375491274885}
   m_Father: {fileID: 74215721253597299}
   m_LocalEulerAnglesHint: {x: 21.842558, y: 0.07443614, z: -0.99950004}
---- !u!114 &762436910252704842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4650702430874766796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &4934656154045516966
 GameObject:
   m_ObjectHideFlags: 0
@@ -2070,7 +1740,7 @@ GameObject:
   - component: {fileID: 562925149963148160}
   m_Layer: 7
   m_Name: mixamorig:LeftHandThumb4
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2099,10 +1769,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2458398616801912673}
-  - component: {fileID: 8189168547328954784}
   m_Layer: 7
   m_Name: mixamorig:HeadTop_End
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2122,20 +1791,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 9011008246401403073}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8189168547328954784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5030186474537279562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &5683480490951466225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2148,9 +1803,10 @@ GameObject:
   - component: {fileID: 747300181911301975}
   - component: {fileID: 7264768544198875627}
   - component: {fileID: 6433548648268845249}
+  - component: {fileID: 6418439206482981798}
   m_Layer: 7
   m_Name: mixamorig:LeftArm
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2267,6 +1923,20 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &6418439206482981798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5683480490951466225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainScript: {fileID: 5064779998484119165}
+  multiplicadorDanho: 1
 --- !u!1 &5738408918759424083
 GameObject:
   m_ObjectHideFlags: 0
@@ -2279,9 +1949,10 @@ GameObject:
   - component: {fileID: 2944819577599305148}
   - component: {fileID: 3443782946284986167}
   - component: {fileID: 2636049511495479803}
+  - component: {fileID: 6038934871425447343}
   m_Layer: 7
   m_Name: mixamorig:LeftForeArm
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2399,6 +2070,20 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &6038934871425447343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5738408918759424083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainScript: {fileID: 5064779998484119165}
+  multiplicadorDanho: 1
 --- !u!1 &5858316173281034991
 GameObject:
   m_ObjectHideFlags: 0
@@ -2410,7 +2095,7 @@ GameObject:
   - component: {fileID: 5736565679532471762}
   m_Layer: 7
   m_Name: mixamorig:LeftHandIndex4
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2441,7 +2126,7 @@ GameObject:
   - component: {fileID: 7494296238977201272}
   m_Layer: 7
   m_Name: mixamorig:LeftHandThumb2
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2471,10 +2156,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8131636197174417861}
-  - component: {fileID: 5363641886008230310}
   m_Layer: 7
   m_Name: mixamorig:RightHandPinky2
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2495,20 +2179,6 @@ Transform:
   - {fileID: 7692962001964326018}
   m_Father: {fileID: 7878873519516535804}
   m_LocalEulerAnglesHint: {x: 56.382915, y: -10.255171, z: -13.018802}
---- !u!114 &5363641886008230310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5937671905872285658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &5977187934915354109
 GameObject:
   m_ObjectHideFlags: 0
@@ -2518,10 +2188,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8416473072762106316}
-  - component: {fileID: 2949405087468905974}
   m_Layer: 7
   m_Name: mixamorig:RightHandThumb2
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2542,20 +2211,6 @@ Transform:
   - {fileID: 3207809651998988268}
   m_Father: {fileID: 2105758467064884427}
   m_LocalEulerAnglesHint: {x: 1.2658476, y: -1.9867709, z: -46.77561}
---- !u!114 &2949405087468905974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5977187934915354109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &6034318771430027678
 GameObject:
   m_ObjectHideFlags: 0
@@ -2568,7 +2223,7 @@ GameObject:
   - component: {fileID: 3551472276300353260}
   m_Layer: 7
   m_Name: mixamorig:Spine1
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2612,10 +2267,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 398284564576695490}
-  - component: {fileID: 5468108723889226039}
   m_Layer: 7
   m_Name: LeftEye
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2635,20 +2289,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 9011008246401403073}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5468108723889226039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6161753773323071737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &6196631933313015738
 GameObject:
   m_ObjectHideFlags: 0
@@ -2658,10 +2298,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8748445265832879741}
-  - component: {fileID: 5476533537432606315}
   m_Layer: 7
   m_Name: mixamorig:RightHandPinky4
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2681,20 +2320,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7692962001964326018}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5476533537432606315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6196631933313015738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &6579536385815039496
 GameObject:
   m_ObjectHideFlags: 0
@@ -2735,10 +2360,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7692962001964326018}
-  - component: {fileID: 4243087146891692567}
   m_Layer: 7
   m_Name: mixamorig:RightHandPinky3
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2759,20 +2383,6 @@ Transform:
   - {fileID: 8748445265832879741}
   m_Father: {fileID: 8131636197174417861}
   m_LocalEulerAnglesHint: {x: 48.035442, y: -6.362804, z: -8.414952}
---- !u!114 &4243087146891692567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6593657770843574075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &6599070316327727920
 GameObject:
   m_ObjectHideFlags: 0
@@ -2784,7 +2394,7 @@ GameObject:
   - component: {fileID: 2424800296145044052}
   m_Layer: 7
   m_Name: mixamorig:LeftHandIndex3
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2820,7 +2430,7 @@ GameObject:
   - component: {fileID: 7452084733155230815}
   m_Layer: 7
   m_Name: mixamorig:Spine
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2960,7 +2570,7 @@ GameObject:
   - component: {fileID: 3619484572568704121}
   m_Layer: 7
   m_Name: mixamorig:LeftHandIndex2
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2992,7 +2602,7 @@ GameObject:
   - component: {fileID: 4410088908833700447}
   m_Layer: 7
   m_Name: mixamorig:LeftHandRing4
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3021,10 +2631,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1430484315791066625}
-  - component: {fileID: 2584275967928811669}
   m_Layer: 7
   m_Name: mixamorig:RightToe_End
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3044,20 +2653,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 49474589385990620}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2584275967928811669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6933540575210391654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &7031959183361136694
 GameObject:
   m_ObjectHideFlags: 0
@@ -3067,10 +2662,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4014304610201506411}
-  - component: {fileID: 7047718858008917821}
   m_Layer: 7
   m_Name: mixamorig:Neck
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3091,20 +2685,6 @@ Transform:
   - {fileID: 9011008246401403073}
   m_Father: {fileID: 954740092635763414}
   m_LocalEulerAnglesHint: {x: -4.6124306, y: -3.3609455, z: 2.659191}
---- !u!114 &7047718858008917821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7031959183361136694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &7047443784969569603
 GameObject:
   m_ObjectHideFlags: 0
@@ -3120,7 +2700,7 @@ GameObject:
   - component: {fileID: 1044704427045713783}
   m_Layer: 7
   m_Name: mixamorig:RightForeArm
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3267,7 +2847,7 @@ GameObject:
   - component: {fileID: 4845382187082472424}
   m_Layer: 7
   m_Name: mixamorig:Head
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3560,10 +3140,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 49474589385990620}
-  - component: {fileID: 4741015483405427794}
   m_Layer: 7
   m_Name: mixamorig:RightToeBase
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3584,20 +3163,6 @@ Transform:
   - {fileID: 1430484315791066625}
   m_Father: {fileID: 974058195707925852}
   m_LocalEulerAnglesHint: {x: 42.59103, y: -6.0446825, z: 0.00022034271}
---- !u!114 &4741015483405427794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7889747055342817188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &7916174161966218681
 GameObject:
   m_ObjectHideFlags: 0
@@ -3609,7 +3174,7 @@ GameObject:
   - component: {fileID: 2124516231587270307}
   m_Layer: 7
   m_Name: mixamorig:LeftHandRing1
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3645,7 +3210,7 @@ GameObject:
   - component: {fileID: 6533262325744623828}
   m_Layer: 7
   m_Name: mixamorig:RightArm
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3785,10 +3350,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4467129375491274885}
-  - component: {fileID: 7087713885585284196}
   m_Layer: 7
   m_Name: mixamorig:RightHandIndex4
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3808,20 +3372,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5781367735141301070}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7087713885585284196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7923901075643630100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &8268859632511189676
 GameObject:
   m_ObjectHideFlags: 0
@@ -3831,10 +3381,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8642529272147932383}
-  - component: {fileID: 2259569942696806221}
   m_Layer: 7
   m_Name: mixamorig:LeftShoulder
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3855,20 +3404,6 @@ Transform:
   - {fileID: 1402310818610471167}
   m_Father: {fileID: 954740092635763414}
   m_LocalEulerAnglesHint: {x: 63.353962, y: 85.67604, z: -177.50925}
---- !u!114 &2259569942696806221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8268859632511189676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1
 --- !u!1 &8518561972967768726
 GameObject:
   m_ObjectHideFlags: 0
@@ -3884,7 +3419,7 @@ GameObject:
   - component: {fileID: 4469974175639069731}
   m_Layer: 7
   m_Name: mixamorig:LeftUpLeg
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4026,7 +3561,7 @@ GameObject:
   - component: {fileID: 6151479230071800502}
   m_Layer: 7
   m_Name: mixamorig:LeftHandMiddle2
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4058,7 +3593,7 @@ GameObject:
   - component: {fileID: 8427094690956491747}
   m_Layer: 7
   m_Name: mixamorig:LeftHandMiddle3
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4088,10 +3623,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 508208950678871030}
-  - component: {fileID: 151644872619327800}
   m_Layer: 7
   m_Name: RightEye
-  m_TagString: Untagged
+  m_TagString: ParteEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4111,17 +3645,3 @@ Transform:
   m_Children: []
   m_Father: {fileID: 9011008246401403073}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &151644872619327800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9027676652883786054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca5868a19266b44a802de3f3dcd5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScript: {fileID: 5064779998484119165}
-  multiplicadorDanho: 1

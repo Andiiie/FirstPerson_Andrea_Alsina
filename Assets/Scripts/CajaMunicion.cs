@@ -9,9 +9,11 @@ public class CajaMunicion : MonoBehaviour
     {
         anim = GetComponent<Animator>();
     }
+    
 
     public void Abrir()
     {
         anim.SetTrigger("abrir");
     }
+  
 }

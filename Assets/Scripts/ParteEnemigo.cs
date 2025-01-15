@@ -18,6 +18,7 @@ public class ParteEnemigo : MonoBehaviour
     }
     public void Explotar()
     {
+        mainScript.Vidas -= 101;
         mainScript.GetComponent<Animator>().enabled = false;
         mainScript.GetComponent<NavMeshAgent>().enabled = false;
         mainScript.enabled = false;

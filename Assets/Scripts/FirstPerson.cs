@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FirstPerson : MonoBehaviour
 {
@@ -89,6 +91,12 @@ public class FirstPerson : MonoBehaviour
     public void RecibirDanho(int danhoRecibido)
     {
         vidas -= danhoRecibido;
+        if (vidas <= 0)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            SceneManager.LoadScene(4);
+        }
     }
 
     // sirve para dibujar figuras en la escena

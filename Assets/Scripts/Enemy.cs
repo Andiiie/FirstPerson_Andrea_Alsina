@@ -4,20 +4,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
-    private NavMeshAgent agent;
-    private FirstPerson player;
-    private Animator anim;
-    private bool ventanaAbierta = false;
+    NavMeshAgent agent;
+    FirstPerson player;
+    Animator anim;
+    bool ventanaAbierta = false;
     [SerializeField] Transform Attackpoint;
     [SerializeField] float RadioAtaque = 1f;
     [SerializeField] LayerMask queEsDanable;
     [SerializeField] int danhoAtaque = 25;
-    private bool danhoRealizado = false;
+    bool danhoRealizado = false;
     [SerializeField] private float vidas;
-    private Rigidbody[] huesos;
+    Rigidbody[] huesos;
+    static int zombiesMorir;
+    bool matar1=true;
 
     public float Vidas { get => vidas; set => vidas = value; }
 
@@ -46,6 +49,18 @@ public class Enemy : MonoBehaviour
     public void Morir()
     {
         // gameobject=set active;;; componentes = enabled bool
+        
+        Debug.Log(zombiesMorir);
+        if (matar1 == true)
+        {
+            zombiesMorir++;
+            matar1 = false;
+        }
+        if (zombiesMorir >= 15)
+        {
+            SceneManager.LoadScene(3);
+
+        }
         agent.enabled = false;
         anim.enabled = false;
         CambiarEstadoHuesos(false);
@@ -128,11 +143,12 @@ public class Enemy : MonoBehaviour
     public void RecibirDanho(float danhoRecibido)
     {
         vidas -= danhoRecibido;
-
+        
+        
         if (vidas <= 0)
         {
-            Destroy(this.gameObject);
 
+            Destroy(this.gameObject);
         }
 
     }
